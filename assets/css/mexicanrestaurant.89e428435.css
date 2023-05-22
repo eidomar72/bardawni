@@ -64,7 +64,9 @@ b,
 strong {
 	font-weight: bold
 }
-
+.fs15 {
+	font-size: 20px !important;
+}
 dfn {
 	font-style: italic
 }
@@ -2303,7 +2305,7 @@ h1 {
 	margin-top: 0px;
 	margin-bottom: 50px;
 	font-family: is, sans-serif;
-	color: transparent;
+	color: #29382e;
 	font-size: 5.4vw;
 	line-height: 0.9em;
 	font-weight: 400;
@@ -2313,12 +2315,12 @@ h1 {
 h2 {
 	margin-top: 0px;
 	margin-bottom: 0vw;
-	font-family: is, sans-serif;
-	color: transparent;
+	font-family: is,sans-serif;
+	color: #29382e;
 	font-size: 8vw;
 	line-height: 0.8em;
 	font-weight: 700;
-	letter-spacing: -0.01em;
+	letter-spacing: -0.0em;
 	text-transform: uppercase;
 }
 
@@ -3027,17 +3029,17 @@ a {
 	bottom: 0px;
 }
 
-.cover-img.burrito {
-	background-image: url("../5af1b9c338b141ba9506729d_burrito.jpg");
+.cover-img.coldapps {
+	background-image: url("../../ColdApps.jpg");
 	background-position: 50% 50%;
 	background-size: cover;
 	background-repeat: no-repeat;
-	-webkit-filter: grayscale(100%);
-	filter: grayscale(100%);
+	-webkit-filter: grayscale(50%);
+	filter: grayscale(50%);
 }
 
-.cover-img.taco {
-	background-image: url("../5aa4227bf3d89b0001228f9e_tacos.jpg");
+.cover-img.hotapps {
+	background-image: url("../../HotApps.jpg");
 	background-position: 50% 50%;
 	background-size: cover;
 	background-repeat: no-repeat;
